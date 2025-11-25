@@ -1,0 +1,18 @@
+name: smm_flutter_app
+description: A minimal SMM app demo with admin account and simple orders.
+publish_to: 'none'
+version: 0.1.0
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
